@@ -99,7 +99,6 @@ package project;
 		public void screenCentre(){
 			
 			initCentre();
-			
 			super.setSize(600,600);
 			super.setLocation(200,200);
 			super.setDefaultCloseOperation(super.EXIT_ON_CLOSE);
