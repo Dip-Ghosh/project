@@ -42,7 +42,7 @@ package project;
 		public void setFine(double fine) {
 			this.fine = fine;
 		}
-		
+		/constructor
 		public ReturnBook(String bookId, String memberId, Date dayOfBorrow,
 				Date dayOfReturn, double fine) {
 			
