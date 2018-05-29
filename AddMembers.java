@@ -3,7 +3,6 @@ package project;
 
 
 	import javax.swing.*;
-
 	import java.awt.*;
 	import java.awt.event.*;
 	import java.io.FileWriter;
@@ -15,7 +14,7 @@ package project;
 		JTextField nameField,addressField,mobileField,idField,emailField;
 		
 		JButton exit,add;
-		
+		//Gui
 		public AddMembers(){
 			
 			name=new JLabel("Name");
@@ -78,6 +77,7 @@ package project;
 			
 		}
 		
+		//file write
 		public void writeMembers(){
 			
 			try{
