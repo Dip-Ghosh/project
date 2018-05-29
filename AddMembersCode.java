@@ -1,7 +1,6 @@
 package project;
 
 	import java.io.FileWriter;
-
 	import javax.swing.JOptionPane;
 
 	public class AddMembersCode {
@@ -11,6 +10,7 @@ package project;
 		private String id;
 		private String email;
 		
+		//constructor
 		public AddMembersCode(String name,String address,String mobile,String id,String email){
 			
 			this.name=name;
@@ -21,6 +21,7 @@ package project;
 			
 			
 		}
+		
 
 		public String getName() {
 			return name;
@@ -62,25 +63,9 @@ package project;
 			this.email = email;
 		}
 		
-		/*public   void saveMember(AddMembers aMember)
-		{
-			try{
-				FileWriter fw=new FileWriter("D:\\AddMember.txt",true);
-				String Memberinfo=String .format(aMember.name()+" , "+" , "+aMember.getAddress()+" , "+aMember.id+" , "+aMember.email);
-				fw.write(Memberinfo);
-				fw.write("\r\n");
-				fw.close();
-				JOptionPane.showMessageDialog(null, "Record saved");
-				
-				
-			}catch(Exception e)
-			
-			{
-				System.out.println(e.getMessage());
-			}
 		
 
-	}*/
+	}
 	}
 
 
