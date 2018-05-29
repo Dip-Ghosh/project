@@ -10,7 +10,7 @@ public class DeleteBook {
 	private Date dayOfBorrow;
 	private  Date dayOfReturn;
 	
-	
+	//constructor
 	public DeleteBook(String title, String bookId, String memberId,
 			Date dayOfBorrow, Date dayOfReturn) {
 		super();
@@ -23,7 +23,7 @@ public class DeleteBook {
 	}
 
 
-
+      //get set method
 	public String getBookId() {
 		return bookId;
 	}
