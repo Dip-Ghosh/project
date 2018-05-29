@@ -79,7 +79,7 @@ package project;
 		
 		//file write
 		public void writeMembers(){
-			
+			//Exception Handling
 			try{
 				
 				FileWriter fw=new FileWriter("D:\\New folder\\fall 2014\\members.txt",true);
