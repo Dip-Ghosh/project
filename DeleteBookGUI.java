@@ -79,9 +79,6 @@ public class DeleteBookGUI extends JFrame implements ActionListener{
 		 
 		 
 	}
-   
-		
-	
 
 	public DeleteBook serachBook(String title){
 		DeleteBook bb = null;
@@ -113,10 +110,6 @@ public class DeleteBookGUI extends JFrame implements ActionListener{
 		
 	}
 
-	private DeleteBook DeleteBook(String title2) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 	
     
