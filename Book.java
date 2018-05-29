@@ -5,7 +5,7 @@ package project;
 	import java.util.*;
 
 	import javax.swing.JOptionPane;
-
+	
 	public class Book {
 		private String bookid;
 		private String subject;
@@ -15,6 +15,7 @@ package project;
 		private String edition;
 		private String ISBN;
 		
+		//constructor
 		public Book(String bookid,String subject,String title,String author,String publisher,
 		String  edition,String ISBN)
 		{
@@ -72,25 +73,6 @@ package project;
 			ISBN = iSBN;
 		}
 		
-	/*public   void saveBook(Book abook)
-	{
-		try{
-			FileWriter fw=new FileWriter("D:\\BOOKS.txt",true);
-			
-			String bookinfo=String .format(abook.bookid+" , "+abook.subject+" , "+abook.title+" , "+abook.author+" , "+abook.publisher+" , "+abook.ISBN+" , ");
-			fw.write(bookinfo);
-			fw.write("\r\n");
-			fw.close();
-			JOptionPane.showMessageDialog(null, "Record saved");
-			
-			
-		}catch(Exception e)
-		
-		{
-			System.out.println(e.getMessage());
-		}
-		
-	}*/
 	
 
 }
